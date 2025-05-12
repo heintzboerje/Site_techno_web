@@ -1,33 +1,58 @@
-<html>
-<link rel="stylesheet" type="text/css" title="main" href="../../Styles/film_style1.css">
-<link rel="stylesheet" type="text/css" title="alternate" href="../../Styles/films_style2.css">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HorrorDB - The Shining</title>
+    <link rel="stylesheet" type="text/css" title="main" href="../../Styles/film_style1.css" />
+    <link rel="alternate stylesheet" type="text/css" title="alternate" href="../../Styles/film_style2.css" disabled="disabled" />
+</head>
 <body>
-<a href="../../index.xhtml"><h2 id="title">
-<span id="horror">Horror</span><span id="db">DB</span>
-</h2></a><h1>The Shining</h1>
-<img id="poster" src="../../Images/shining.jpg"><p id="director" class="quick-info">Director: <span>Stanley</span> <span>Kubrick</span></p>
-<p id="release" class="quick-info"><h3>Release:</h3>1980</p>
-<p id="language" class="quick-info"><h3>Language:</h3>english</p>
-<p id="synopsis" class="paragraph"><h3>Synopsis:</h3>
-                Un écrivain alcoolique est engagé comme gardien d'un grand hotel isolé dans le Colorado.
-                Il y déménage avec sa famille et son fils possédant le talent de médium est de plus en plus hanté par
-                des visions de meutres déroulé à l'hotel.
-        </p>
-<p id="more" class="paragraph"><h3>More:</h3> TEST </p>
-<p id="cast"><h4>Cast:</h4><p class="actor"><span>Jack</span> <span>Nicholson</span>
-                                                        :
-                                                        <p class="role"><span>Jack Torrance</span></p></p><p class="actor"><span>Danny</span> <span>Lloyd</span>
-                                                        :
-                                                        <p class="role"><span>Danny Torrance</span></p></p></p>
-<p id="anecdote" class="paragraph"><h4>Anecdote:</h4> funny stuff </p>
-    <footer>
-      <a id="random-link" href="#">Voir une fiche au hasard</a>
-      <button id="toggle-style">Changer le style</button>
-      <div><a href="Content/Forms/quizz.html">Accéder au Quizz</a></div>
-      <div><a href="Content/Miscellaneous/authors.xhtml"> Accéder a un portrait des auteurs</a></div>
-      <div>Nous contacter:</div>
-      <div><a href="mailto:zeinebou.niang@etu.univ-poitiers.fr">NIANG Zeneibou</a></div>
-      <div><a href="mailto:bentz.polo@etu.univ-poitiers.fr">POLO Bentz</a></div>
-    </footer>
+<div id="datetime"></div>
+<a href="../../index.xhtml">
+    <h2 id="title">
+        <span id="horror">Horror</span><span id="db">DB</span>
+    </h2>
+</a>
+
+<h1>The Shining</h1>
+
+<img id="poster" src="../../Images/The_Shining.jpg" alt="The Shining Poster" />
+
+<div id="details">
+    <p><strong>Director :</strong> Stanley Kubrick</p>
+    <p><strong>Release :</strong> 1980</p>
+    <p><strong>Language :</strong> anglais</p>
+</div>
+
+<div id="synopsis">
+    <h3>Synopsis :</h3>
+    <p>Un écrivain alcoolique est engagé comme gardien d'un grand hôtel isolé dans le Colorado.
+        Il y déménage avec sa famille et son fils, possédant le talent de médium, est de plus en plus hanté par
+        des visions de meurtres ayant eu lieu à l'hôtel.</p>
+</div>
+
+<div id="more">
+    <h3>More :</h3>
+    <p>TEST</p>
+</div>
+
+<div id="cast">
+    <h3>Cast :</h3>
+    <ul>
+        <li>Jack Nicholson : Jack Torrance</li>
+        <li>Danny Lloyd : Danny Torrance</li>
+    </ul>
+</div>
+
+<div id="anecdote">
+    <h3>Anecdote :</h3>
+    <p>Funny stuff</p>
+</div>
+
+<button id="toggle-style">Changer de style</button>
+<script src="../../Code/Javascript/datetime.js"></script>
+<script src="../../Code/Javascript/Collection_style_switch.js"></script>
+
 </body>
 </html>
