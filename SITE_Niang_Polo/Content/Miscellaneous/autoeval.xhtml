@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html>
-
+<!DOCTYPE html> 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
   <head>
     <title>
       Grille d'évaluation du projet
     </title>
+    <script src="../../Code/Javascript/autoeval.js"></script>
     <link rel="stylesheet" type="text/css" media="all" title="style"
           href="../../Styles/autoeval.css"/>
 
     
   </head>
-  <body>
+  <body onload="printAverage()" >
 
     <h1> Grille d'évaluation du projet</h1>
     <form action="http://voca2.univ-poitiers.fr/traitement.php"
@@ -52,7 +52,7 @@
             </td>
             <td>
               <input name="gen1" id="gen1" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()" />
             </td>
             <td></td>
           </tr>
@@ -64,8 +64,8 @@
               </label>
             </td>
             <td>
-              <input name="gen1" id="gen2" step="5" type="range"
-                     min="0" max="100" value="0"/>
+              <input name="gen2" id="gen2" step="5" type="range"
+                     min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -80,7 +80,7 @@
             </td>
             <td>
               <input name="gen3" id="gen3" step="5" type="range"
- 	             min="0" max="100" value="0"/>
+ 	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -95,7 +95,7 @@
             </td>
             <td>
               <input name="gen7" id="gen7" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -108,7 +108,7 @@
             </td>
             <td>
               <input name="gen4" id="gen4" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -123,7 +123,7 @@
             </td>
             <td>
               <input name="gen5" id="gen5" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -137,7 +137,7 @@
             </td>
             <td>
               <input name="gen6" id="gen6" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -164,7 +164,7 @@
             </td>
             <td>
               <input name="xml1" id="xml1" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -181,7 +181,7 @@
             </td>
             <td>
               <input name="xml2" id="xml2" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -196,7 +196,7 @@
             </td>
             <td>
               <input name="xml3" id="xml3" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -212,7 +212,7 @@
             </td>
             <td>
               <input name="xml4" id="xml4" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -227,7 +227,7 @@
             </td>
             <td>
               <input name="xml5" id="xml5" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -242,7 +242,7 @@
             </td>
             <td>
               <input name="xml6" id="xml6" step="5" type="range"
-                     min="0" max="100" value="0"/>
+                     min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -255,7 +255,7 @@
             </td>
             <td>
               <input name="xml7" id="xml7" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -268,7 +268,7 @@
             </td>
             <td>
               <input name="xml8" id="xml8" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -308,7 +308,7 @@
             </td>
             <td>
               <input name="html1" id="html1" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -322,7 +322,7 @@
             </td>
             <td>
 	      <input name="html2" id="html2" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -340,7 +340,7 @@
             </td>
             <td>
 	      <input name="html3" id="html3" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -360,7 +360,7 @@
             </td>
             <td>
               <input name="html4" id="html4" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -383,7 +383,7 @@
             </td>
             <td>
               <input name="html5" id="html5" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -408,7 +408,7 @@
             </td>
             <td>
               <input name="html6" id="html6" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -431,7 +431,7 @@
             </td>
             <td>
               <input name="html7" id="html7" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -464,7 +464,7 @@
             </td>
             <td>
               <input name="html8" id="html8" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -494,7 +494,7 @@
             </td>
             <td>
               <input name="ts1" id="ts1" step="5" type="range" min="0" max="100"
-	             value="0"/>
+	             value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -509,7 +509,7 @@
             </td>
             <td>
               <input name="ts2" id="ts2" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -522,7 +522,7 @@
             </td>
             <td>
               <input name="ts3" id="ts3" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -536,7 +536,7 @@
             </td>
             <td>
               <input name="ts4" id="ts4" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -550,7 +550,7 @@
             </td>
             <td>
               <input name="ts5" id="ts5" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -564,7 +564,7 @@
             </td>
             <td>
               <input name="ts6" id="ts6" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -578,7 +578,7 @@
             </td>
             <td>
               <input name="ts7" id="ts7" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -593,7 +593,7 @@
             </td>
             <td>
               <input name="ts8" id="ts8" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -616,7 +616,7 @@
             </td>
             <td>
               <input name="ts9" id="ts9" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -635,7 +635,7 @@
             </td>
             <td>
               <input name="ts10" id="ts10" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -653,7 +653,7 @@
             </td>
             <td>
               <input name="ts11" id="ts11" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -670,7 +670,7 @@
             </td>
             <td>
               <input name="ts12" id="ts12" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -689,7 +689,7 @@
             </td>
             <td>
 	      <input name="ts13" id="ts13" step="5" type="range"
-	             min="0" max="100" value="0"/>
+	             min="0" max="100" value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -717,7 +717,7 @@
             </td>
             <td>
               <input name="c1" id="c1" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -732,7 +732,7 @@
             </td>
             <td>
               <input name="c2" id="c2" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -748,7 +748,7 @@
             </td>
             <td>
               <input name="c3" id="c3" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>
@@ -766,7 +766,7 @@
             </td>
             <td>
               <input name="c4" id="c4" step="5" type="range" min="0" max="100"
-                     value="0"/>
+                     value="0" class="range" oninput="printAverage()"/>
             </td>
             <td></td>
           </tr>

@@ -4,14 +4,13 @@
 function moyenne(list) {
   let result = 0;
   for(let i in list){
-    result += i.value
+    result += i.value;
   };
-  return result / 40
-}
-
-document.querySelector('input[type="range"]')
+  return result / 40;
+};
 
 // fonction principale
 function printAverage() {
-  document.getElementById("average").value = moyenne(document.querySelector('input[type="range"]'))
-}
+  let average = document.getElementById("average")
+  average.setAttribute("value", moyenne(document.getElementsByClassName("range")));
+};
