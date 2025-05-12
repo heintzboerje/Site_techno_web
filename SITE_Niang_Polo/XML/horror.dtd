@@ -1,0 +1,40 @@
+<!ELEMENT film (title, poster?, director+, infos, cast, synopsis, more?)>
+<!ATTLIST film
+        id ID #REQUIRED
+        trailer CDATA #IMPLIED>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT poster EMPTY>
+<!ATTLIST poster
+        src CDATA #REQUIRED
+        alt CDATA #REQUIRED>
+
+<!ELEMENT synopsis (#PCDATA)>
+
+<!ELEMENT director (firstname, lastname?)>
+<!ATTLIST director 
+        id ID #REQUIRED>
+
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+
+<!ELEMENT infos (release, languages)>
+
+<!ELEMENT release (#PCDATA)>
+
+<!ELEMENT languages (language+)>
+<!ELEMENT language (#PCDATA)>
+
+<!ELEMENT cast (actor+)>
+
+<!ELEMENT actor (firstname, lastname, roles)>
+
+<!ELEMENT roles (character+)>
+
+<!ELEMENT character (#PCDATA)>
+
+<!ELEMENT more (significance, anecdote*)>
+
+<!ELEMENT significance (#PCDATA)>
+<!ELEMENT anecdote (#PCDATA)>

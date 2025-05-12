@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="horror.xsl"?>
+<!DOCTYPE film SYSTEM "horror.dtd">
+<film id="blair_witch_project" trailer="">
+        <title>The Blair Witch Project</title>
+        <poster src="https://poster"/>
+        <director id="myrick">
+                <firstname>Daniel</firstname>
+                <lastname>Myrick</lastname>
+        </director>
+        <director id="sanchez">
+                <firstname>Eduardo</firstname>
+                <lastname>Sanchez</lastname>
+        </director>
+        <infos>
+                <release>30 Juillet 1999</release>
+                <languages>
+                        <language>english</language>
+                </languages>
+        </infos>
+        <cast>
+                <actor>
+                        <firstname>Heather</firstname>
+                        <lastname>Donahue</lastname>
+                        <roles>
+                                <character>Heather Donahue</character>
+                        </roles>
+                </actor>
+                <actor>
+                        <firstname>Joshua</firstname>
+                        <lastname>Leonard</lastname>
+                        <roles>
+                                <character>Joshua Leonard</character>
+                        </roles>
+                </actor>
+                <actor>
+                        <firstname>Michael</firstname>
+                        <lastname>Williams</lastname>
+                        <roles>
+                                <character>Michael Williams</character>
+                        </roles>
+                </actor>
+        </cast>
+        <synopsis>
+                Trois étudiants investiguent la légende de Blair Witch, dans le Maryland
+                disparaissent en ne laissant derrière eux que l'enregistrement de leur investiguation.
+        </synopsis>
+        <more>
+                <significance>It had great impact</significance>
+                <anecdote>Il y une scene où les acteurs dorment dans une tente.
+                        La tente est soudainement violemment secoué et ils se 
+                        réveillent paniqués. Cette scène n'était pas scripté.
+                        Les réalisateur ont secoué la tente et les acteurs était
+                        réellement paniqués.
+                </anecdote>
+        </more> 
+</film>

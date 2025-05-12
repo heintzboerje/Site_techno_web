@@ -1,0 +1,46 @@
+/* Style du logo */
+@import url("logo.css") all;
+
+html {
+    background: black; /* Bleu très foncé pour l'ambiance alternative */
+}
+
+/* Suppression de décoration sur les liens */
+a {
+    text-decoration: none;
+    color: darkred; /* Couleur différente pour les liens */
+}
+
+/* Disposition du contenu en grille */
+#contenant {
+    display: grid;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+/* Images */
+div img {
+    width: 45%;
+    height: auto;
+    border: 2px solid brown; /* Bordure turquoise autour des images */
+}
+
+/* Table, lignes, cellules, entêtes */
+table, tr, td, th {
+    border: 1px solid antiquewhite;
+    border-collapse: collapse;
+}
+
+/* Entêtes de table */
+th {
+    font-weight: bold;
+    background-color: white; /* Fond légèrement plus clair */
+    color: lightblue; /* Texte bleu clair */
+}
+
+/* Dernière cellule de chaque ligne */
+tr > td:last-child {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #002626;
+    color: #66ffff;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="movie_styles.css"?>
+<!DOCTYPE film SYSTEM "horror.dtd">
+<film id="scream" trailer="">
+    <title>Scream</title>
+    <poster src="scream.jpg" alt="Affiche du Film"/>
+    <director id="craven">
+        <firstname>Wes</firstname>
+        <lastname>Craven</lastname>
+    </director>
+    <infos>
+        <release>20 décembre 1996</release>
+        <languages>
+            <language>anglais</language>
+        </languages>
+    </infos>
+    <cast>
+        <actor>
+            <firstname>Neve</firstname>
+            <lastname>Campbell</lastname>
+            <roles>
+                <character>Sidney Prescott, lycéenne cible principale du tueur</character>
+            </roles>
+        </actor>
+        <actor>
+            <firstname>Courteney</firstname>
+            <lastname>Cox</lastname>
+            <roles>
+                <character>Gale Weathers, journaliste ambitieuse enquêtant sur les meurtres</character>
+            </roles>
+        </actor>
+        <actor>
+            <firstname>David</firstname>
+            <lastname>Arquette</lastname>
+            <roles>
+                <character>Dewey Riley, adjoint du shérif et frère de Tatum</character>
+            </roles>
+        </actor>
+        <actor>
+            <firstname>Drew</firstname>
+            <lastname>Barrymore</lastname>
+            <roles>
+                <character>Casey Backer, première victime du tueur</character>
+            </roles>
+        </actor>
+    </cast>
+    <synopsis>
+        Ce film de 1996 suit un mystérieux tueur en série, surnommé Ghostface,
+        qui terrorise une petite ville californienne en s'inspirant des classiques du cinéma d'horreur.
+        Le film est reconnu pour avoir revitalisé le genre du slasher dans les années 1990.
+    </synopsis>
+    <more>
+        <significance>Revitalisation du genre slasher dans les années 1990</significance>
+        <anecdote>
+            Lors du tournage, Drew Barrymore devait initialement jouer l'héroïne principale,
+            mais a demandé à incarner la première victime pour surprendre le public dès le début du film.
+        </anecdote>
+    </more>
+
+</film>

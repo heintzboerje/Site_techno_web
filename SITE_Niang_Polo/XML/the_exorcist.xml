@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="movie_styles.css"?>
+<!DOCTYPE film SYSTEM "horror.dtd">
+<film id="the_exorcist" trailer="">
+    <title>The Exorcist</title>
+    <poster src="the_exorcist.jpeg" alt="Affiche du Film"/>
+    <director id="friedkin">
+        <firstname>William</firstname>
+        <lastname>Friedkin</lastname>
+    </director>
+    <infos>
+        <release>26 décembre 1973</release>
+        <languages>
+            <language>anglais</language>
+        </languages>
+    </infos>
+    <cast>
+        <actor>
+            <firstname>Linda</firstname>
+            <lastname>Blair</lastname>
+            <roles>
+                <character>Regan MacNeil, la jeune fille possédée, dont le comportement devient de plus en plus effrayant et incontrôlable.</character>
+            </roles>
+        </actor>
+        <actor>
+            <firstname>Max</firstname>
+            <lastname>von Sydow</lastname>
+            <roles>
+                <character>Père Lankester Merrin, prêtre expérimenté qui revient pour réaliser l'exorcisme de Regan.</character>
+            </roles>
+        </actor>
+        <actor>
+            <firstname>Jason</firstname>
+            <lastname>Miller</lastname>
+            <roles>
+                <character>Père Damien Karras, prêtre et psychiatre, en proie au doute, qui assiste au rite de l'exorcisme</character>
+            </roles>
+        </actor>
+        <actor>
+            <firstname>Ellen</firstname>
+            <lastname>Burstyn</lastname>
+            <roles>
+                <character>Chris MacNeil, la mère de Regan, actrice célèbre qui cherche une solution quand sa fille commence à se comporter de manière étrange.</character>
+            </roles>
+        </actor>
+    </cast>
+    <synopsis>
+        Sorti en 1973, ce film raconte l'histoire de Regan MacNeil, une jeune fille possédée par un démon,
+        et des prêtres qui tentent de l'exorciser. Inspiré d'un véritable cas d'exorcisme en 1949, il est considéré comme un classique du cinéma d'horreur.
+    </synopsis>
+    <more>
+        <significance>Considéré comme l'un des films d'horreur les plus influents de l'histoire du cinéma</significance>
+        <anecdote>
+            Lors du tournage, la température sur le plateau était maintenue très basse pour que les acteurs puissent
+            réellement voir leur souffle à l'écran, créant ainsi une atmosphère glaciale authentique.
+        </anecdote>
+    </more>
+
+</film>

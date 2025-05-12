@@ -1,0 +1,56 @@
+
+/* Style du logo */
+
+@import url("logo.css") all;
+@import url("footer.css") all;
+
+html{   
+        background: linear-gradient(to bottom, #660000, black);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100%;
+        width:100%;
+        /*position:fixed;*/
+}
+
+/* Suppression de décoration sur les liens */
+a {
+        text-decoration : none;
+}
+
+/* Disposition du contenu en flexbox */
+#contenant {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*column-gap: 25px; */
+        /*align-content: space-evenly;*/
+        justify-content: space-evenly;
+}
+
+#contenant a:hover > img{
+  width: 255px;
+  height: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #008200;
+  /*margin-bottom: 25px;*/
+}
+
+/* Taille des images */
+
+/*@media (min-width:)*/
+#contenant a > img {
+        width: 265px;
+        height: auto;
+        margin-bottom: 25px;
+        box-shadow: 3px 3px 10px gray;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: gray;
+  width:100%;
+}

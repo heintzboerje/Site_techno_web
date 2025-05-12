@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="horror.xsl"?>
+<!DOCTYPE film SYSTEM "horror.dtd">
+<film id="the_shining" trailer="https://youtu.be/JkZzWDaId-s">
+        <title>The Shining</title>
+        <poster src="https://upload.wikimedia.org/wikipedia/en/1/1d/The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg" alt="Pas de poster disponible pour ce film"/>
+        <director id="kubrick">
+                <firstname>Stanley</firstname>
+                <lastname>Kubrick</lastname>
+        </director>
+        <infos>
+                <release>1980</release>
+                <languages>
+                        <language>english</language>
+                </languages>
+        </infos>
+        <cast>
+                <actor>
+                        <firstname>Jack</firstname>
+                        <lastname>Nicholson</lastname>
+                        <roles>
+                                <character>Jack Torrance</character>
+                        </roles>
+                </actor>
+                <actor>
+                        <firstname>Danny</firstname>
+                        <lastname>Lloyd</lastname>
+                        <roles>
+                                <character>Danny Torrance</character>
+                        </roles>
+                </actor>
+        </cast>
+        <synopsis>
+                Un écrivain alcoolique est engagé comme gardien d'un grand hotel isolé dans le Colorado.
+                Il y déménage avec sa famille et son fils possédant le talent de médium est de plus en plus hanté par
+                des visions de meutres déroulé à l'hotel.
+        </synopsis>
+        <more>
+                <significance> TEST </significance>
+                <anecdote> funny stuff </anecdote>
+        </more>
+</film>

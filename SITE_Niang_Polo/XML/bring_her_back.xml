@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="horror.xsl"?>
+<!DOCTYPE film SYSTEM "horror.dtd">
+<film id="bring_her_back" trailer="https://www.youtube.com/watch?v=RsKygtA2DMY%26pp=ygUOYnJpbmcgaGVyIGJhY2s%3D">
+        <title>Bring her back</title>
+        <poster src="https://upload.wikimedia.org/wikipedia/en/f/fd/Bring_Her_Back_film_poster.jpg" alt="Pas de poster disponible pour ce film"/>
+        <director id="danny">
+                <firstname>Danny</firstname>
+                <lastname>Philippou</lastname>
+        </director>
+        <director id="michael">
+                <firstname>Michael</firstname>
+                <lastname>Philippou</lastname>
+        </director>
+        <infos>
+                <release>30 mai 2025</release>
+                <languages>
+                        <language>english</language>
+                </languages>
+        </infos>
+        <cast>
+                <actor>
+                        <firstname>Sally</firstname>
+                        <lastname>Hawkins</lastname>
+                        <roles>
+                                <character>Non connu</character>
+                        </roles>
+                </actor>
+                <actor>
+                        <firstname>Billy</firstname>
+                        <lastname>Barratt</lastname>
+                        <role>
+                                <character>Non connu</character>
+                        </role>
+                </actor>
+        </cast>
+        <synopsis>Une fratrie découvre un rituel terrifiant chez leur nouvelle famille d'accueil.'</synopsis>
+</film>
