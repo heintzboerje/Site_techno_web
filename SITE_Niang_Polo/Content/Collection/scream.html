@@ -1,31 +1,51 @@
-<html>
-<link rel="stylesheet" type="text/css" title="main" href="../../Styles/film_style1.css">
-<link rel="stylesheet" type="text/css" title="alternate" href="../../Styles/films_style2.css">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>HorrorDB - Scream</title>
+    <link rel="stylesheet" type="text/css" title="main" href="../../Styles/film_style1.css" />
+    <link rel="alternate stylesheet" type="text/css" title="alternate" href="../../Styles/film_style2.css" disabled="disabled" />
+</head>
+
 <body>
-<a href="../../index.xhtml"><h2 id="title">
-<span id="horror">Horror</span><span id="db">DB</span>
-</h2></a><h1>Scream</h1>
-<img id="poster" src="../../Images/scream.jpg"><p id="director" class="quick-info">Director: <span>Wes</span> <span>Craven</span></p>
-<p id="release" class="quick-info"><h3>Release:</h3>20 décembre 1996</p>
-<p id="language" class="quick-info"><h3>Language:</h3>anglais</p>
-<p id="synopsis" class="paragraph"><h3>Synopsis:</h3>
-        Ce film de 1996 suit un mystérieux tueur en série, surnommé Ghostface,
-        qui terrorise une petite ville californienne en s'inspirant des classiques du cinéma d'horreur.
-        Le film est reconnu pour avoir revitalisé le genre du slasher dans les années 1990.
-    </p>
-<p id="more" class="paragraph"><h3>More:</h3>Revitalisation du genre slasher dans les années 1990</p>
-<p id="cast"><h4>Cast:</h4><p class="actor"><span>Neve</span> <span>Campbell</span>
-                                                        :
-                                                        <p class="role"><span>Sidney Prescott, lycéenne cible principale du tueur</span></p></p><p class="actor"><span>Courteney</span> <span>Cox</span>
-                                                        :
-                                                        <p class="role"><span>Gale Weathers, journaliste ambitieuse enquêtant sur les meurtres</span></p></p><p class="actor"><span>David</span> <span>Arquette</span>
-                                                        :
-                                                        <p class="role"><span>Dewey Riley, adjoint du shérif et frère de Tatum</span></p></p><p class="actor"><span>Drew</span> <span>Barrymore</span>
-                                                        :
-                                                        <p class="role"><span>Casey Backer, première victime du tueur</span></p></p></p>
-<p id="anecdote" class="paragraph"><h4>Anecdote:</h4>
-            Lors du tournage, Drew Barrymore devait initialement jouer l'héroïne principale,
-            mais a demandé à incarner la première victime pour surprendre le public dès le début du film.
-        </p>
+<div id="datetime"></div>
+<a href="../../index.xhtml">
+    <h2 id="title">
+        <span id="horror">Horror</span><span id="db">DB</span>
+    </h2>
+</a>
+
+<h1>Scream</h1>
+
+<img id="poster" src="../../Images/scream.jpg" alt="Scream Poster" />
+
+<div id="details">
+    <p><strong>Director :</strong> Wes Craven</p>
+    <p><strong>Release :</strong> 20 décembre 1996</p>
+    <p><strong>Language :</strong> anglais</p>
+</div>
+
+<div id="synopsis">
+    <h3>Synopsis :</h3>
+    <p>Un tueur masqué terrorise une petite ville. Film culte qui a relancé les slashers.</p>
+</div>
+
+<div id="cast">
+    <h3>Cast :</h3>
+    <ul>
+        <li>Neve Campbell : Sidney Prescott</li>
+        <li>Courteney Cox : Gale Weathers</li>
+        <li>David Arquette : Dewey Riley</li>
+        <li>Drew Barrymore : Casey Becker</li>
+    </ul>
+</div>
+
+<div id="anecdote">
+    <h3>Anecdote :</h3>
+    <p>Drew Barrymore devait jouer l'héroïne, mais a préféré mourir au début du film !</p>
+</div>
+<button id="toggle-style">Changer de style</button>
+<script src="../../Code/Javascript/datetime.js"></script>
+<script src="../../Code/Javascript/Collection_style_switch.js"></script>
 </body>
 </html>
