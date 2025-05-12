@@ -2,10 +2,11 @@
 <html  xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
   <head>
     <title>HorrorDB</title>
+    <script src="../../Code/Javascript/spyware.js"></script>
   </head>
-  <body>
+  <body onload="spy()">
     <h2>AJOUTER UN FILM à NOTRE BASE DE DONNEE</h2>
-    <form action="http://voca2.univ-poitiers.fr/traitement.php"
+    <form id="formulaire" action="http://voca2.univ-poitiers.fr/traitement.php"
       method="post">
       <fieldset>
         <legend>Fiche technique:</legend>
@@ -27,6 +28,5 @@
       </fieldset>
     </form>
     <input type="submit" value="Soumettre"/>
-    <input type="hidden" name=""/>
   </body>
 </html>

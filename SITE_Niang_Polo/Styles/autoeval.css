@@ -1,0 +1,52 @@
+table,tr,td,th{
+    border-collapse: collapse;
+    border : solid 1px black;
+}
+
+table {
+    width : 80%;
+    margin : auto;
+}
+
+thead th{
+    background-color:  white;
+}
+tbody td:last-child{
+    width : 30%
+}
+tbody td[rowspan]{
+    text-align: center;
+}
+
+tbody td:nth-last-child(2) {
+    text-align: center;
+}
+
+tbody td:nth-last-child(2) input{
+    width : 80% ;
+}
+
+.baremep{
+    font-style: italic;
+    font-size : 0.65em;
+}
+
+.titre{
+    font-weight: bold;
+}
+
+.nsi::before{
+    content: "[Pour les étudiants des gps 4 et 5]";
+    font-weight: bold;
+    font-style: italic;
+    color : chocolate;
+    background-color: white;
+}
+
+.bonus::before{
+    content: "[bonus]";
+    font-weight: bold;
+    font-style: italic;
+    color : chocolate;
+    background-color: white;
+}
