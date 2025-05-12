@@ -1,3 +1,32 @@
 <!DOCTYPE html>
 <html  xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+  <head>
+    <title>HorrorDB</title>
+  </head>
+  <body>
+    <h2>AJOUTER UN FILM à NOTRE BASE DE DONNEE</h2>
+    <form action="http://voca2.univ-poitiers.fr/traitement.php"
+      method="post">
+      <fieldset>
+        <legend>Fiche technique:</legend>
+        <label for="title">Titre du film:</label>
+        <input type="text" id="title" name="title" placeholder="The Conjuring"/><br/>
+        <label for="director">Nom des réalisateurs:</label>
+        <input type="text" id="director" name="director" placeholder="James Wan"/><br/>
+        <label for="release">Date de sortie</label>
+        <input type="date" id="release" name="release"/><br/>
+        <label for="cast">Acteurs:</label><br/>
+        <textarea id="cast" name="cast" rows="10" cols="60" placeholder="acteur1:[role1, role2, ...] ; \n acteur2:[...]"/>
+      </fieldset>
+      <fieldset>
+        <legend>Présentation:</legend>
+        <label for="synopsis">Synopsis:</label><br/>
+        <textarea id="synopsis" name="synopsis" rows="10" cols="60"/><br/>
+        <label for="anecdote">Anecdotes divers sur le film:</label><br/>
+        <textarea id="anecdote" name="anecdote" rows="10" cols="60"/>
+      </fieldset>
+    </form>
+    <input type="submit" value="Soumettre"/>
+    <input type="hidden" name=""/>
+  </body>
 </html>
