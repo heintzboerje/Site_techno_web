@@ -70,7 +70,7 @@ function verifier() {
     if (!resultat) {
         resultat = document.createElement('div');
         resultat.id = "resultat";
-        document.getElementById('quizz-form').appendChild(resultat);
+        document.getElementById('quizz_form').appendChild(resultat);
     }
 
     resultat.textContent = "Votre score est " + score + " sur " + totalQuestions + ".";
