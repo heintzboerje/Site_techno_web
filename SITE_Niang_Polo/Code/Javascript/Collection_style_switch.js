@@ -1,4 +1,5 @@
 
+// Zeinebou
 // Fonction qui active une feuille de style en désactivant les autres
 function setActiveStyle(title) {
     const links = document.getElementsByTagName("link");
