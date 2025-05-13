@@ -1,6 +1,8 @@
+
 /* Style du logo */
-@import url("logo.css") all;
 /*zeinebou*/
+
+@import url("logo.css") all;
 body:first-child a{
         text-transform : uppercase;
 }
