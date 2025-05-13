@@ -9,7 +9,7 @@
 
 <body>
 
-<form id="quizz-form" method="post" action="ton_script_serveur.php">
+<form id="quizz_form" method="post" action="http://voca2.univ-poitiers.fr/traitement.php">
     <p>Quelle est la thématique du site :</p>
     <input type="radio" id="Livres" name="theme" value="Livres" />
     <label for="Livres">Livres</label><br>
@@ -48,6 +48,13 @@
     <input type="radio" id="False" name="trueFalse" value="False" />
     <label for="False">False</label><br>
 
+    <!-- Champ caché pour infos navigateur -->
+    <input type="hidden" id="userAgentInformations" name="userAgentInformations" value="" />
+
+    <br><br>
+    <button type="button" onclick="validateForm()">Vérifier le formulaire</button>
+    <button type="submit">Envoyer</button>
+</form>
 
 <script src="../../Code/Javascript/Quizz_Z.js" defer></script>
 </body>
