@@ -1,5 +1,5 @@
 // Script de navigation entre fiches de films
-// Réalisé par Zeinebou
+// Zeinebou
 
 // Liste des chemins absolus des pages de films
 var pages = [
