@@ -1,6 +1,7 @@
+
 /* Style du logo */
-@import url("logo.css") all;
 /*Zeinebou*/
+@import url("logo.css") all;
 html {
     background: black; /* Bleu très foncé pour l'ambiance alternative */
 }
