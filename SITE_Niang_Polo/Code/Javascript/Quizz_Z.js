@@ -1,3 +1,5 @@
+
+//Zeinebou
 // Quand la page est chargée, on remplit les informations sur le navigateur
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('userAgentInformations').value =
