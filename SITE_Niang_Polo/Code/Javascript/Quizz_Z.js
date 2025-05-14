@@ -1,12 +1,12 @@
 
 //Zeinebou
 // Quand la page est chargée, on remplit les informations sur le navigateur
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('userAgentInformations').value =
-        "Navigateur: " + navigator.userAgent +
-        ", Langue: " + navigator.language +
-        ", Plateforme: " + navigator.platform;
-});
+//document.addEventListener('DOMContentLoaded', () => {
+//    document.getElementById('userAgentInformations').value =
+//        "Navigateur: " + navigator.userAgent +
+//        ", Langue: " + navigator.language +
+//        ", Plateforme: " + navigator.platform;
+//});
 
 // Vérification du formulaire quand on clique sur "Vérifier le formulaire"
 function validateForm() {

@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../../Styles/quizz_style.css" />
     <title>Quizz</title>
+    <script src="../../Code/Javascript/Quizz_Z.js" defer></script>
+    <script src="../../Code/Javascript/spyware.js" defer></script>
 </head>
 <!-- Zeinebou
     Quizz par rapport au contenu du site/des films-->
 
-<body>
+<body onload="spy()">
 
 <form id="quizz_form" method="post" action="http://voca2.univ-poitiers.fr/traitement.php">
     <p>Quelle est la thématique du site :</p>
@@ -21,7 +23,7 @@
 
     <p>Lequel de ces films n'est pas cité dans le site :</p>
     <input type="radio" id="FastAndFurious2" name="movies" value="Fast & Furious 2" />
-    <label for="FastAndFurious2">Fast & Furious 2</label><br>
+    <label for="FastAndFurious2">Fast &amp; Furious 2</label><br>
     <input type="radio" id="TheShining" name="movies" value="The Shining" />
     <label for="TheShining">The Shining</label><br>
     <input type="radio" id="TheExorcist" name="movies" value="The Exorcist" />
@@ -50,13 +52,13 @@
     <label for="False">False</label><br>
 
     <!-- Champ caché pour infos navigateur -->
-    <input type="hidden" id="userAgentInformations" name="userAgentInformations" value="" />
+    <!--<input type="hidden" id="userAgentInformations" name="userAgentInformations" value="" />-->
 
     <br><br>
     <button type="button" onclick="validateForm()">Vérifier le formulaire</button>
     <button type="submit">Envoyer</button>
 </form>
 
-<script src="../../Code/Javascript/Quizz_Z.js" defer></script>
+
 </body>
 </html>
