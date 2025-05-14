@@ -1,19 +1,22 @@
 /* Style du logo */
 @import url("logo.css") all;
 /*Zeinebou*/
-body:first-child a {
-    text-transform: uppercase;
-}
+/*body:first-child a {*/
+/*    text-transform: uppercase;*/
+/*}*/
 
 body {
-    background-color: #121212; /* gris très sombre au lieu de noir */
+  background-color: #121212; /* gris très sombre au lieu de noir */
+}
+
+body:first-child + * {
     color: #d0d0ff; /* gris bleuté clair */
     font-family: 'Courier New', Courier, monospace;
     padding: 40px;
     line-height: 1.6;
 }
 
-h1 {
+#filmtitle {
     color: #00bfff; /* bleu clair vif */
     text-shadow: 2px 2px 10px #003366; /* ombre bleue foncée */
     font-size: 2em;
@@ -53,6 +56,6 @@ img {
     box-shadow: 0 0 15px rgba(0, 191, 255, 0.4);
 }
 
-body {
-    cursor: url('https://cur.cursors-4u.net/horror/hor-1/hor68.cur'), auto;
-}
+/*body {*/
+/*    cursor: url('https://cur.cursors-4u.net/horror/hor-1/hor68.cur'), auto;*/
+/*}*/
