@@ -4,9 +4,10 @@
 function moyenne(list) {
   let result = 0;
   for(let i = 0; i < list.length; i++){
-    result += list[i].value;
+    result += Number(list[i].value);
   };
-  return result / 40;
+  result /= list.length;
+  return result;
 };
 
 // fonction qui met la moyenne dans l'élément input
