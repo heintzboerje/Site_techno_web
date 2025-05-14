@@ -1,0 +1,17 @@
+@import url("logo.css") all;
+@import url("quizz_style.css") all;
+
+body {
+    background-image: linear-gradient(to bottom, #121212, red); /* gris très sombre au lieu de noir */
+}
+
+label{
+    color: #ff4444;
+}
+/*Applique le style à tous excepté le logo*/
+.nottitle{
+    color: #d0d0ff; /* gris bleuté clair */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+    line-height: 1.6;
+}

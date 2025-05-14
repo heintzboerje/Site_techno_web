@@ -1,5 +1,12 @@
+/*Zeinebou Niang*/
+/*Bentz Polo*/
+@import url("logo.css") all;
+
 body {
     background-color: #0b0b0b;
+}
+
+body:first-child + * {
     color: #e3e3e3;
     font-family: 'Courier New', Courier, monospace;
     padding: 40px;
@@ -7,10 +14,11 @@ body {
     text-align: center;
 }
 
-h1 {
+body > h1 {
     color: #ff0000;
     font-size: 2em;
     text-shadow: 2px 2px 10px #550000;
+    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -60,7 +68,7 @@ q {
     color: #f1f1f1;
 }
 
-span {
+table span {
     background-color: #550000;
     padding: 5px;
     border-radius: 5px;

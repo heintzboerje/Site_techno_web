@@ -2,19 +2,20 @@
 <html  xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
   <head>
     <title>HorrorDB</title>
-    <script src="../../Code/Javascript/spyware.js"></script>
+    <link rel="stylesheet" media="screen"  title="main" type="text/css" href="../../Styles/contributions.css"/>
+    <link rel="stylesheet" media="screen"  title="main" type="text/css" href="../../Styles/contributions_alt.css" disabled="true"/>
+    <script src="../../Code/Javascript/spyware.js" defer="defer"></script>
+    <script src="../../Code/Javascript/Collection_style_switch.js"></script>
   </head>
 <!-- Bentz -->
 
-<a href="../../index.xhtml">
-    <h2 id="title">
-        <span id="horror">Horror</span><span id="db">DB</span>
-    </h2>
-</a>
-
-  <body onload="spy()">
-    <h2>AJOUTER UN FILM à NOTRE BASE DE DONNEE</h2>
-    <form id="formulaire" action="http://voca2.univ-poitiers.fr/traitement.php"
+<body onload="spy()">
+    <a href="index.html">
+      <h1 id="page-title"><span id="horror">Horror</span><span id="db">DB</span></h1>
+      <h3 id="subtitle"> Répertoire de quelques films d'horreur qu'on aime.</h3>
+    </a>
+    <h2 class="nottitle">AJOUTER UN FILM à NOTRE BASE DE DONNEE</h2>
+    <form class="nottitle" id="formulaire" action="http://voca2.univ-poitiers.fr/traitement.php"
       method="post">
       <fieldset>
         <legend>Fiche technique:</legend>
@@ -35,6 +36,7 @@
         <textarea id="anecdote" name="anecdote" rows="10" cols="60"/>
       </fieldset>
     <input type="submit" value="Soumettre"/>
+    <button id="toggle-style">Changer le style</button>
     </form>
   </body>
 </html>

@@ -1,4 +1,4 @@
-
+@import url("logo.css") all;
 /*Zeinebou*/
 /*Style du quizz*/
  body {
@@ -9,7 +9,7 @@
      line-height: 1.6;
  }
 
-p {
+label,p{
     font-size: 1.2em;
     color: #ff4444;
     margin-bottom: 10px;

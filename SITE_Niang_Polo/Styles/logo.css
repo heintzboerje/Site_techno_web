@@ -1,4 +1,3 @@
-
 /*Bentz*/
 /* Le logo en haut de la page */
 #db { 
@@ -15,6 +14,7 @@
   font-family: Verdana, Arial, sans-serif; 
 }
 
+/*Enlève les décoration par défaut du lien qui est le logo*/
 body > a:first-child { 
         text-decoration : none;
         display : block;
@@ -23,12 +23,15 @@ body > a:first-child {
         color: pink;
 }
 
+/* On sélectionne le h3 voisin du h1 dans le logo */
 h1 + h3 {
         text-transform : uppercase;
         font-family: sans-serif;
         font-size: 13px;
 }
 
+/* Il y a plus simple mais fallait faire le quota pour la consigne */
+/* Change quelque propriété de texte sur le logo */
 a[href="index.html"] {
         line-height: 0.3;
         margin-bottom: 25px;

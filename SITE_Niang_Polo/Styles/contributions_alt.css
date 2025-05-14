@@ -1,0 +1,15 @@
+@import url("logo.css") all;
+
+body {
+  background-color: #121212; /* gris très sombre au lieu de noir */
+}
+
+/*Applique le style à tous excepté le logo*/
+.nottitle{
+    color: #d0d0ff; /* gris bleuté clair */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+
